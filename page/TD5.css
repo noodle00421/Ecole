@@ -1,0 +1,46 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2017-09-26, 14:57:06
+    Author     : 1401959
+*/
+
+body {
+    background-image: url("../image/recette.jpg");
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+h1 {
+    font-family: fantasy;
+    text-align: center;
+}
+#a1 {
+    color: cyan;
+}
+#a2 {
+    color: darkcyan;
+    text-decoration: none;
+    font-weight: bold;
+}
+img {
+    border: 6px solid #e8e6e6;
+    height: 200px;
+    width: 200px;
+}
+table {
+    border-style: hidden;
+    margin: auto;
+    padding-top: 2em;
+    table-layout: fixed;
+}
+th, td {
+    padding-right: 2em;
+    width: 200px;
+}
+svg {
+    float: left;
+}

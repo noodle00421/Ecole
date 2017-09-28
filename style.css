@@ -4,11 +4,16 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
 /* 
-    Created on : 2017-09-05, 15:13:24
-    Author     : Jonathan Leroux
+    Created on : 2017-09-12, 15:47:02
+    Author     : 1401959
 */
 
-title
-{
-    
+/*body {
+    text-align:center;
+}*/
+#navigation {
+    width: 200px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
