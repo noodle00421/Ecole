@@ -1,0 +1,153 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2017-10-24, 16:34:27
+    Author     : 1401959
+*/
+
+header.b {
+    text-align: center;
+}
+
+h2 {
+    color: #0000cc;
+    font-family: Arial;
+    left: 20%;
+    margin-bottom: -5px;
+    position: relative;
+}
+
+#h2 {
+    color: #0000cc;
+    font-family: Arial;
+    font-size: 18px;
+    margin-left: 2px;
+    text-align: left;
+}
+
+p {
+    font-family: Arial;
+    font-size: 1.3vw;
+    padding-left: 10px;
+}
+
+p.dpp1 {
+    display: inline;
+}
+
+p.dpp2 {
+    display: inline;
+    margin-left: 10%;
+}
+
+div {
+    background-color: #555555;
+    border: 2px solid black;
+    bottom: -0.9vw;
+    color: white;
+    display: inline-block;
+    font-family: "Arial Black";
+    font-size: 1.1vw;
+    left: 21.5%;
+    padding-left: 2px;
+    padding-right: 2px;
+    position: relative;
+    z-index: 1;
+}
+
+span {
+    color: grey;
+    font-size: 10px;
+}
+
+article {
+    background-color: lightgrey;
+    border: 2px solid black;
+    height: auto;
+    left: 20%;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    position: relative;
+    overflow: auto;
+    width: 60%;
+}
+
+input {
+    height: 1.1vw;
+}
+
+input.c {
+    float: right;
+    margin-right: 40%;
+    width: 30%;
+}
+
+input.i {
+    margin-right: 0;
+    margin-left: 2px;
+    width: 35%;
+}
+
+input.i2 {
+    margin-right: 0;
+    margin-left: 7%;
+    width: 44%;
+}
+
+input.dp1 {
+    margin-right: 4px;
+    margin-left: 4px;
+    width: 20.5%;
+}
+
+input.dp2 {
+    float: right;
+    margin-right: 8px;
+    width: 80%;
+}
+
+input.b {
+    height: 20px;
+    margin-left: 7%;
+}
+
+input.b2 {
+    height: 20px;
+    margin-left: 20%;
+    margin-top: 12px;
+}
+
+input.b3 {
+    height: 20px;
+    margin-left: 6px;
+}
+
+input.r {
+    margin-left: 6px;
+    margin-top: 10px;
+    width: 85%;
+}
+
+input[type="checkbox"], input[type="radio"] {
+    margin-bottom: -1px;
+    margin-top: -1px;
+}
+
+input:focus {
+    border-color: blue;
+}
+
+select {
+    font-size: 80%;
+    margin-left: 5%;
+    padding: 1px;
+}
+
+textarea.dp3 {
+    float: right;
+    margin-right: 6px;
+    width: 85%;
+}

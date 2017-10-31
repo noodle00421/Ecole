@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Formulaires.</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="TD7.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <header class="b">
+            <h1>Formulaires.</h1>
+        </header>
+        <h2>
+            Votre profil
+        </h2>
+        <div>
+            Connexion
+        </div>
+        <form id="formulaire" action="" method="post">
+             <article>
+                <p>Identifiant<input class="c" type="text" name="Identifiant" size="25" maxlength="25" required="" placeholder="Identifiant"></p>
+                <p>Nouveau mot de passe<input class="c" type="text" name="MDP" size="25" maxlength="25" required=""></p>
+                <p>Confirmation<input class="c" type="text" name="ConfirmationMDP" size="25" maxlength="25" required=""></p>
+            </article>
+            <div>
+                Identité
+            </div>
+            <article>
+                <p>Vous êtes<select name="genre"><option>M.<option>Mme.</select><input type="text" name="Prénom" required="" placeholder="Prénom" class="i"><input type="text" name="Nom" required="" placeholder="Nom de famille" class="i"></p>
+                <p>Surnom<input type="text" name="Surnom" class="i2"></p>
+            </article>
+            <div>
+                Détails personnels
+            </div>
+            <article>
+                <p>Courriel<input class="dp2" type="text" name="Courriel" maxlength="50" pattern="{1}@{1}.com" required="" placeholder="email@exemple.com"></p>
+                <p title="Messagerie instantanée" class="dpp1">IM</p><p class="dpp2">MSN<input class="dp1" type="text" name="MSN" placeholder="email@msn.com">ICQ<input class="dp1" type="text" name="ICQ" placeholder="123456789">Jabber<input class="dp1" type="text" name="Jabber" placeholder="email@exemple.com"></p>
+                <p>Site personnel<input class="dp2" type="text" name="Site" placeholder="http://www.exemple.com"></p>
+                <p>Détails<textarea name="details" rows=4 cols="65" placeholder="Décrivez-vous." class="dp3"></textarea></p>
+                <br><br><p>Photo<input class="b" type="button" name="avatar" value="Choisissez un fichier" onclick="alert('Ne fonctionne pas pour l\'instant.')"> Aucun fichier choisi <span>(JPEG, PNG ou GIF, 150ko maximum)</span></p>
+            </article>
+            <div>
+                Centres d'intérêts
+            </div>
+            <article>
+                <p><input type="checkbox" name="Jeuxvideo" value="1">Jeux vidéo
+                <br><input type="checkbox" name="Technologies" value="2">Technologies
+                <br><input type="checkbox" name="Informatique" value="3">Informatique</p>
+            </article>
+            <div>
+                Conditions de fonctionnement
+            </div>
+            <article>
+                <p><input type="checkbox" name="conditions" required="">J'accepte les conditions générales d'utilisation.
+                <br><input type="checkbox" name="newsletter" value="4">Je consens à ce que mes informations personnelle soient divulgées à des partenaires.</p>
+                <b id="h2">La newsletter du site</b>
+                <p><input type="radio" name="newsletter" checked="" value="0">Je ne désire pas la recevoir.
+                <br><input type="radio" name="newsletter" value="1">Je désire la recevoir hebdomadairement.
+                <br><input type="radio" name="newsletter" value="2">Je désire la recevoir mensuellement.</p>
+            </article>
+            <input class="b2" type="submit" name="miseajour" value="Metter à jour mon profil"><input class="b3" type="reset" name="remiseazero" value="Annuler">
+        </form>
+        <br>
+        <div>
+            Recherche
+        </div>
+        <form id="formulaire1" action="https://www.google.com/search" method="GET">
+            <article>
+                <input type="text" name="q" class="r"><input type="submit" name="recherche" value="Chercher" class="b3">
+            </article>
+        </form>
+        <div>
+            Message à l'enseignant
+        </div>
+        <form id="message" action="https://monstudval.000webhostapp.com/sendmail.php" method="POST">
+            <article>
+                Name <input type="text" name="name" size="10" placeholder="Type Here"> Email <input type="text" name="email" size="10" placeholder="Type Here"> Message <textarea name="message" placeholder="Type Here" rows='2' cols="6"></textarea> <input type="submit" name="submit" value="Submit" class="b3">
+            </article>
+        </form>
+    </body>
+</html>
