@@ -23,22 +23,22 @@ and open the template in the editor.
         </div>
         <form id="formulaire" action="" method="post">
              <article>
-                <p>Identifiant<input class="c" type="text" name="Identifiant" size="25" maxlength="25" required="" placeholder="Identifiant"></p>
-                <p>Nouveau mot de passe<input class="c" type="text" name="MDP" size="25" maxlength="25" required=""></p>
-                <p>Confirmation<input class="c" type="text" name="ConfirmationMDP" size="25" maxlength="25" required=""></p>
+                <p>Identifiant<input class="c" type="text" name="Identifiant" size="25" maxlength="25" required placeholder="Identifiant"></p>
+                <p>Nouveau mot de passe<input class="c" type="password" name="MDP" size="25" maxlength="25" required></p>
+                <p>Confirmation<input class="c" type="password" name="ConfirmationMDP" size="25" maxlength="25" required></p>
             </article>
             <div>
                 Identité
             </div>
             <article>
-                <p>Vous êtes<select name="genre"><option>M.<option>Mme.</select><input type="text" name="Prénom" required="" placeholder="Prénom" class="i"><input type="text" name="Nom" required="" placeholder="Nom de famille" class="i"></p>
+                <p>Vous êtes<select name="genre"><option>M.<option>Mme.</select><input type="text" name="Prénom" required placeholder="Prénom" class="i"><input type="text" name="Nom" required placeholder="Nom de famille" class="i"></p>
                 <p>Surnom<input type="text" name="Surnom" class="i2"></p>
             </article>
             <div>
                 Détails personnels
             </div>
             <article>
-                <p>Courriel<input class="dp2" type="text" name="Courriel" maxlength="50" pattern="{1}@{1}.com" required="" placeholder="email@exemple.com"></p>
+                <p>Courriel<input class="dp2" type="email" name="Courriel" maxlength="50" required placeholder="email@exemple.com"></p>
                 <p title="Messagerie instantanée" class="dpp1">IM</p><p class="dpp2">MSN<input class="dp1" type="text" name="MSN" placeholder="email@msn.com">ICQ<input class="dp1" type="text" name="ICQ" placeholder="123456789">Jabber<input class="dp1" type="text" name="Jabber" placeholder="email@exemple.com"></p>
                 <p>Site personnel<input class="dp2" type="text" name="Site" placeholder="http://www.exemple.com"></p>
                 <p>Détails<textarea name="details" rows=4 cols="65" placeholder="Décrivez-vous." class="dp3"></textarea></p>
@@ -56,10 +56,10 @@ and open the template in the editor.
                 Conditions de fonctionnement
             </div>
             <article>
-                <p><input type="checkbox" name="conditions" required="">J'accepte les conditions générales d'utilisation.
+                <p><input type="checkbox" name="conditions" required>J'accepte les conditions générales d'utilisation.
                 <br><input type="checkbox" name="newsletter" value="4">Je consens à ce que mes informations personnelle soient divulgées à des partenaires.</p>
                 <b id="h2">La newsletter du site</b>
-                <p><input type="radio" name="newsletter" checked="" value="0">Je ne désire pas la recevoir.
+                <p><input type="radio" name="newsletter" checked value="0">Je ne désire pas la recevoir.
                 <br><input type="radio" name="newsletter" value="1">Je désire la recevoir hebdomadairement.
                 <br><input type="radio" name="newsletter" value="2">Je désire la recevoir mensuellement.</p>
             </article>
